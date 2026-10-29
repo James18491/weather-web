@@ -1,4 +1,5 @@
 # Weather Web
+DEMO web by me : [weather-web-iota-beryl.vercel.app](https://weather-web-iota-beryl.vercel.app)
 
 weather app i built to learn fullstack. search any city or let the browser detect
 your location automatically. shows current weather + 5 day forecast.
