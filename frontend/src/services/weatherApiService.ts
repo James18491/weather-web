@@ -1,6 +1,6 @@
 import type { weatherError, weatherResponse } from "../models/weatherPayload";
 
-const API_URL = 'http://localhost:5000/api/weather';
+const API_URL = '/api/weather';
 
 export async function fetchWeatherData(city: string) {
   const response = await fetch(`${API_URL}?city=${encodeURIComponent(city)}`);
